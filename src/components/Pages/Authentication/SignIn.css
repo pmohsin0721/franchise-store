@@ -21,6 +21,8 @@ body {
     margin-bottom: 70px;
 }
 .login-form h2 {
+    color: #333;
+	font-weight: bold;
 	margin: 10px 0 25px;
 }
 .login-form form {
