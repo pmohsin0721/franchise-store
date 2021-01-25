@@ -38,9 +38,9 @@ body {
 .signup-form .form-group {
 	margin-bottom: 20px;
 }
-.signup-form input[type="checkbox"] {
+/* .signup-form input[type="checkbox"] {
 	margin-top: 3px;
-}
+} */
 .signup-form .row div:first-child {
 	padding-right: 10px;
 }
