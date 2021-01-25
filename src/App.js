@@ -10,7 +10,8 @@ import Bangalore from './components/Banglaore';
 import Mumbai from './components/Mumbai';
 import Chennai from './components/Chennai';
 import SelectCities from './components/SelectCities';
-
+import SignIn from './components/Pages/Authentication/SignIn'
+import SignUp from './components/Pages/Authentication/Signup'
 
 
 
@@ -28,8 +29,8 @@ function App() {
             <Route path='/chennai' component={Chennai} />
             <Route path='/selectcities' component={SelectCities} />
               
-            {/* <Route path='/sign-up' component={TopFranchise} />
-            <Route path='/sign-in' component={TopFranchise} /> */}
+             <Route path='/sign-in' component={SignIn} />
+            <Route path='/sign-up' component={SignUp} /> 
         </Switch>
         <Footer />
       </Router>

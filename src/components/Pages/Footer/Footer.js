@@ -18,7 +18,7 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>About Us</h2>
-         <h3 className="newton">Franchise Store is a major project made by a Newtons school student.</h3>
+         <h3 className="newton">Franchise Store is a major project made by a Newton school student.</h3>
           </div>
           <div className='footer-link-items'>
             <h4 className='contact'>Contact Us</h4>
