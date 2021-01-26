@@ -15,11 +15,11 @@ body {
 .form-control, .btn {        
 	border-radius: 3px;
 }
-.signup-form {
-	width: 400px;
+.enquiry-form {
+	width: 600px;
 	margin: 30px auto;
 }
-.signup-form form {
+.enquiry-form form {
 	color: #999;
 	border-radius: 3px;
 	margin-bottom: 15px;
@@ -27,52 +27,52 @@ body {
 	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
 	padding: 30px;
 }
-.signup-form h2  {
+.enquiry-form h2  {
 	color: #333;
 	font-weight: bold;
 	margin-top: 0;
 }
-.signup-form hr  {
+.enquiry-form hr  {
 	margin: 0 -30px 20px;
 }    
-.signup-form .form-group {
+.enquiry-form .form-group {
 	margin-bottom: 20px;
 }
-/* .signup-form input[type="checkbox"] {
+/* .enquiry-form input[type="checkbox"] {
 	margin-top: 3px;
 } */
-.signup-form .row div:first-child {
+.enquiry-form .row div:first-child {
 	padding-right: 10px;
 }
-.signup-form .row div:last-child {
+.enquiry-form .row div:last-child {
 	padding-left: 10px;
 }
-.signup-form .btn {        
+.enquiry-form .btn {        
 	font-size: 16px;
 	font-weight: bold;
 	background: #3598dc;
 	border: none;
-	min-width: 140px;
+    min-width: 140px;
 }
-.signup-form .btn:hover, .signup-form .btn:focus {
+.enquiry-form .btn:hover, .enquiry-form .btn:focus {
 	background: #2389cd !important;
 	outline: none;
 }
-.signup-form a {
+.enquiry-form a {
 	color: #fff;
 	text-decoration: underline;
 }
-.signup-form a:hover {
+.enquiry-form a:hover {
 	text-decoration: none;
 }
-.signup-form form a {
+.enquiry-form form a {
 	color: #3598dc;
 	text-decoration: none;
 }	
-.signup-form form a:hover {
+.enquiry-form form a:hover {
 	text-decoration: underline;
 }
-.signup-form .hint-text  {
+.enquiry-form .hint-text  {
 	padding-bottom: 25px;
 	text-align: center;
 }

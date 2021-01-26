@@ -10,7 +10,7 @@ function Hyderabad() {
           <h1 className='Cities__heading'>Franchise in Hyderabad</h1>
           <div className='Cities__container'>
 
-            <a href='http://www.pistahousehaleem.in/contact.php' target="_blank" rel="noreferrer" className='Cities__container-card'>
+            <a href='/enquiry-form'  className='Cities__container-card'>
               <div className='Cities__container-cardInfo'> 
                 <div className='icon'>
                     <img src="images/pistahouse.png" height="90px" alt="pista house"></img>

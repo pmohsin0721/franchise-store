@@ -12,6 +12,7 @@ import Chennai from './components/Chennai';
 import SelectCities from './components/SelectCities';
 import SignIn from './components/Pages/Authentication/SignIn'
 import SignUp from './components/Pages/Authentication/Signup'
+import EnquiryForm from './components/Pages/EnquiryForm/EnquiryForm.js'
 
 
 
@@ -28,6 +29,7 @@ function App() {
             <Route path='/mumbai' component={Mumbai} />
             <Route path='/chennai' component={Chennai} />
             <Route path='/selectcities' component={SelectCities} />
+            <Route path='/enquiry-form' component={EnquiryForm} />
               
              <Route path='/sign-in' component={SignIn} />
             <Route path='/sign-up' component={SignUp} /> 
