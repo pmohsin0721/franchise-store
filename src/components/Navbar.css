@@ -9,6 +9,7 @@
     position: sticky;
     top: 0;
     z-index: 999;
+    text-decoration: none;
   }
   
   .navbar-container {
@@ -56,10 +57,12 @@
   .nav-item {
     height: 80px;
     border-bottom: 2px solid transparent;
+    
   }
   
   .nav-item:hover {
     border-bottom: 3px solid #f00946;
+    text-decoration: none;
   }
   
   .nav-links {
@@ -69,6 +72,7 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
+    text-decoration: none;
   }
   
   .fa-bars {
@@ -116,10 +120,12 @@
       color: #f00946;
       transform: scale(1.2);
       transition: all 0.3s ease;
+      text-decoration: none;
     }
   
     .nav-item:hover {
       border: none;
+      text-decoration: none;
     }
   
     .nav-item {
@@ -131,6 +137,7 @@
       top: 0;
       left: 0;
       transform: translate(25%, 50%);
+      font-size: 29px;
     }
   
     .menu-icon {

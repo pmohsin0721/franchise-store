@@ -69,6 +69,7 @@ function Navbar() {
                   Top Franchise
                   </Link>
               </li>
+    
               <li className='nav-item' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
               <Link to='/selectcities' className='nav-links' onClick={closeMobileMenu}>
               Select Cities <i className='fas fa-caret-down' />

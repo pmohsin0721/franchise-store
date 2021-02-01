@@ -3,20 +3,21 @@ body {
 	background: #00a7e5;
 	font-family: 'Roboto', sans-serif;
 }
-.form-control {
+.form-two-control {
+	width: 400px;
 	height: 41px;
 	background: #f2f2f2;
 	box-shadow: none;
 	border: none;
 }
-.form-control:focus {
+.form-two-control:focus {
 	background: #e2e2e2;
 }
-.form-control, .btn {        
+.form-two-control, .btn {        
 	border-radius: 3px;
 }
 .signup-form {
-	width: 400px;
+	width: 500px;
 	margin: 30px auto;
 }
 .signup-form form {
@@ -28,9 +29,13 @@ body {
 	padding: 30px;
 }
 .signup-form h2  {
+	text-align: center;
 	color: #333;
 	font-weight: bold;
 	margin-top: 0;
+}
+.signup-form p{
+	text-align: center;
 }
 .signup-form hr  {
 	margin: 0 -30px 20px;
@@ -75,4 +80,17 @@ body {
 .signup-form .hint-text  {
 	padding-bottom: 25px;
 	text-align: center;
+}
+@media screen and (max-width: 960px) {
+	.signup-form {
+		width: 300px;
+		margin: 30px auto;
+	}
+	.form-two-control {
+		width: 250px;
+		height: 41px;
+		background: #f2f2f2;
+		box-shadow: none;
+		border: none;
+	}
 }

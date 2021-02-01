@@ -10,26 +10,33 @@ const EnquiryForm = () => {
 		<p class="text-center">Please fill in this form to enquire about franchise.</p>
 		<hr />
         <div class="form-group">
-			<div class="row">
-				<div class="col"><input type="text" class="form-control" name="first_name" placeholder="First Name" required="required" /></div>
-				<div class="col"><input type="text" class="form-control" name="last_name" placeholder="Last Name" required="required" /></div>
-			</div>        	
+			<input type="text" class="enq-form-control" name="first_name" placeholder="First Name" required="required" />
         </div>
+
+        <div className="form-group">
+			<input type="text" class="enq-form-control" name="last_name" placeholder="Last Name" required="required" />
+        </div>
+	
         <div class="form-group">
-        	<input type="email" class="form-control" name="email" placeholder="Email" required="required" />
+        	<input type="email" class="enq-form-control" name="email" placeholder="Email" required="required" />
         </div>
+
 		<div class="form-group">
-            <input type="number" class="form-control" name="Phone Number" placeholder="Contact Number" required="required" />
+            <input type="number" class="enq-form-control" name="Phone Number" placeholder="Contact Number" required="required" />
         </div>
+
 		<div class="form-group">
-            <input type="text" class="form-control" name="franchise_name" placeholder="Franchise name" required="required" />
+            <input type="text" class="enq-form-control" name="franchise_name" placeholder="Franchise name" required="required" />
         </div>  
+
         <div class="form-group">
-            <input type="text" class="form-control" name="Location" placeholder="Location" required="required" />
-        </div>   
+            <input type="text" class="enq-form-control" name="Location" placeholder="Location" required="required" />
+        </div> 
+
         <div class="form-group">
-            <input type="text" class="form-control" name="TIme" placeholder="Preferred Time for a call" required="required" />
-        </div>     
+            <input type="text" class="enq-form-control" name="TIme" placeholder="Preferred Time for a call" required="required" />
+        </div>    
+
 		<div class="form-group">
             <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
         </div>

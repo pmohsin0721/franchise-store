@@ -3,26 +3,27 @@ body {
 	background: #00a7e5;
 	font-family: 'Roboto', sans-serif;
 }
-.form-control {
-	height: 41px;
+.enq-form-control {
+    width: 420px;
+	height: 50px;
 	background: #f2f2f2;
 	box-shadow: none;
 	border: none;
 }
-.form-control:focus {
+.enq-form-control:focus {
 	background: #e2e2e2;
 }
-.form-control, .btn {        
+.enq-form-control, .btn {        
 	border-radius: 3px;
 }
 .enquiry-form {
-	width: 600px;
+	width: 500px;
 	margin: 30px auto;
 }
 .enquiry-form form {
 	color: #999;
 	border-radius: 3px;
-	margin-bottom: 15px;
+	margin-bottom: 100px;
 	background: #fff;
 	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
 	padding: 30px;
@@ -30,13 +31,17 @@ body {
 .enquiry-form h2  {
 	color: #333;
 	font-weight: bold;
-	margin-top: 0;
+    margin-top: 0;
+    text-align: center;
+}
+.enquiry-form p{
+    text-align: center;
 }
 .enquiry-form hr  {
 	margin: 0 -30px 20px;
 }    
 .enquiry-form .form-group {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 /* .enquiry-form input[type="checkbox"] {
 	margin-top: 3px;
@@ -53,6 +58,7 @@ body {
 	background: #3598dc;
 	border: none;
     min-width: 140px;
+    display: block;
 }
 .enquiry-form .btn:hover, .enquiry-form .btn:focus {
 	background: #2389cd !important;
@@ -71,8 +77,4 @@ body {
 }	
 .enquiry-form form a:hover {
 	text-decoration: underline;
-}
-.enquiry-form .hint-text  {
-	padding-bottom: 25px;
-	text-align: center;
 }
