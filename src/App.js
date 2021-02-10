@@ -6,27 +6,36 @@ import Home from './components/Pages/HomePage/Home'
 import Footer from './components/Pages/Footer/Footer'
 import TopFranchise from './components/TopFranchise';
 import Hyderabad from './components/Hyderabad';
-import Bangalore from './components/Banglaore';
+import Bangalore from './components/Bangalore';
 import Mumbai from './components/Mumbai';
 import Chennai from './components/Chennai';
 import SelectCities from './components/SelectCities';
 import SignIn from './components/Pages/Authentication/SignIn'
 import SignUp from './components/Pages/Authentication/Signup'
 import EnquiryForm from './components/Pages/EnquiryForm/EnquiryForm.js'
+import {HyderabadData,MumbaiData,BangaloreData} from "./components/FranData.json"
 
 
 
 
 function App() {
+
+
   return (
       <Router>
         <Navbar />
         <Switch>
             <Route path='/' exact component={Home} />
             <Route path='/topfranchise' component={TopFranchise} />
-            <Route path='/hyderabad' component={Hyderabad} />
-            <Route path='/bangalore' component={Bangalore} />
-            <Route path='/mumbai' component={Mumbai} />
+            <Route path='/hyderabad'  >
+              <Hyderabad data={HyderabadData}/>
+            </Route>
+            <Route path='/Bangalore'  >
+              <Bangalore data={BangaloreData}/>
+            </Route>
+            <Route path='/Mumbai'  >
+              <Mumbai data={MumbaiData}/>
+            </Route>
             <Route path='/chennai' component={Chennai} />
             <Route path='/selectcities' component={SelectCities} />
             <Route path='/enquiry-form' component={EnquiryForm} />

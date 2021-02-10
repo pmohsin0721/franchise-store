@@ -1,0 +1,173 @@
+{
+    "HyderabadData" :  [{
+       "imgsrc":"images/pistahouse.png",
+        "title":"PISTA HOUSE",
+        "price":"1Cr - 2Cr",
+        "outlets":"Outlets: 30+",
+        "since":"Operating Since: 1997",
+        "items":"Casual Dining and Bakery - Haleem, Biryani, Biscuits, Cakes, Snacks, Kebabs, Indian, Chinese",
+        "space":"Space Required: 600-1000 sq.ft"
+    },
+    {
+        "imgsrc":"images/chocroom.png",
+        "title":"THE CHOCOLATE ROOM",
+        "price":"75L - 1Cr",
+       " outlets":"Outlets: 400+",
+        "since":"Operating Since: 1955",
+        "items":"Café - Cafe, Desserts",
+        "space" :"Space Required: 400-1500 sq.ft"   
+    },
+    {
+        "imgsrc":"images/shahghouse.png",
+        "title":"SHAH GHOUSE",
+        "price":"1cr - 1.5cr",
+        "outlets":"Outlets: 5+",
+        "since":"Operating Since: 2000",
+        "items":"Casual Dining - Biryani, North Indian, Chinese, Seafood, Mughlai, Arabian",
+        "space":"Space Required: 300-1500 sq.ft" 
+    },
+    {
+        "imgsrc":"images/paradise.png",
+        "title":"PARADISE",
+        "price":"1.5Cr - 2Cr",
+        "outlets":"Outlets: 50+",
+        "since":"Operating Since: 1953",
+        "items":"Casual Dining - Biryani, Mughlai, North Indian, Chinese",
+        "space":"Space Required: 600-1000 sq.ft" 
+    },
+    {
+        "imgsrc":"images/kfc.png",
+        "title":"KFC",
+        "price":"1.5Cr - 2Cr",
+      "  outlets":"Outlets: 400+",
+        "since":"Operating Since: 1952",
+        "items":"Quick bites - Burger, Fast Food, Finger Food, Beverages",
+        "space":"Space Required: 600-1000 sq.ft" 
+    },
+    {
+        "imgsrc":"images/mehfil.png",
+        "title":"MEHFIL",
+        "price":"50L - 1Cr",
+        "outlets":"Outlets: 10+",
+        "since":"Operating Since: 1952",
+        "items":"Casual Dining - Hyderabadi, Biryani, Mughlai, North Indian, Chinese, Deserts",
+        "space":"Space Required: 600-1000 sq.ft" 
+    }],
+    "MumbaiData" : [
+        {
+            "imgsrc":"images/frozenbottle.png",
+            "title":"FROZEN BOTTLE",
+            "price":"20L - 30L",
+            "outlets":"Outlets: 100+",
+            "since":"Operating Since: 2017",
+            "items":"Desert Parlour - Beverages, Deserts, Ice-creams",
+            "space":"Space Required: 2500-4000 sq.ft" 
+        },
+        {
+            "imgsrc":"images/subway.png",
+            "title":"SUBWAY",
+            "price":"35L - 80L",
+            "outlets":"Outlets: 600+",
+            "since":"Operating Since: 1966",
+            "items":"Quick Bites - Rolls, Wraps, Sandwich, Salad, Fast Foods",
+            "space":"Space Required: 170-350 sq.ft" 
+        },
+        {
+            "imgsrc":"images/kathi.png",
+            "title":"KATHI JUNCTION",
+            "price":"7L - 30L",
+            "outlets":"Outlets: 100+",
+            "since":"Operating Since: 2019",
+            "items":"Quick Bites - Rolls, North Indian, Fast Food",
+            "space":"Space Required: 300-1500 sq.ft" 
+        },
+        {
+            "imgsrc":"images/giani.png",
+            "title":"GIANI'S",
+            "price":"10L - 15L",
+            "outlets":"Outlets: 50+",
+            "since":"Operating Since: 1956",
+            "items":"Deserts - Ice-creams, Deserts",
+            "space":"Space Required: 200-500 sq.ft" 
+        },
+        {
+            "imgsrc":"images/ghasitaram.png",
+            "title":"GHASITARAM HALWAI",
+            "price":"20L - 30L",
+            "outlets":"Outlets: 10+",
+            "since":"Operating Since: 1950",
+            "items":"Sweet Shop - Mithai, Street Food",
+            "space":"Space Required: 500-600 sq.ft" 
+        }, {
+            "imgsrc":"images/tasim.png",
+            "title":"TASIM",
+            "price":"10L - 20L",
+            "outlets":"Outlets: 1",
+            "since":"perating Since: 2019",
+            "items":"Casual Dining - Asian, Thai, Japanese, Seafood, Shushi, Chinese",
+            "space":"Space Required: 500-700 sq.ft" 
+        }
+    ],
+    "BangaloreData": [{ 
+
+        "imgsrc":"images/uspizza.png",
+        "title":"U.S PIZZA",
+        "price":"25L - 1Cr",
+        "outlets":"Outlets: 30+",
+        "since":"Operating Since: 1998",
+        "items":"Quick Bites - Pizza, Fast Food, Beverages",
+        "space":"Space Required: 2500-4000 sq.ft" 
+    },
+    {
+        "imgsrc":"images/socheesy.png",
+        "title":"SO CHEESY",
+        "price":"10L - 20L",
+        "outlets":"Outlets: 10+",
+        "since":"Operating Since: 2019",
+        "items":"Quick Bites - Fast Foods, Beverages, Deserts",
+        "space":"Space Required: 400-1500 sq.ft" 
+    },
+    {
+        "imgsrc":"images/papalouies.png",
+        "title":"PAPA LOUIES PIZZA",
+        "price":"30L - 50L",
+        "outlets":"Outlets: 5+",
+        "since":"Operating Since: 2019",
+        "items":"Quick Bites - Pizza, Fast Food",
+        "space":"Space Required: 300-1500 sq.ft" 
+    },
+    {
+        "imgsrc":"images/chickywok.png",
+        "title":"CHICKY WOK",
+        "price":"30L - 1Cr",
+        "outlets":"Outlets: 10+",
+        "since":"Operating Since: 1953",
+        "items":"Quick Bites - Fast Foods, Beverages, Deserts",
+        "space":"Space Required: 600-1000 sq.ft" 
+    },
+    {
+        "imgsrc":"images/flechazo.png",
+        "title":"FLECHAZO",
+        "price":"1.5Cr - 2Cr",
+        "outlets":"Outlets: 10+",
+        "since":"Operating Since: 2016",
+        "items":"Casual Dining - Asian, Mediterranean, North Indian, Deserts",
+        "space":"Space Required: 2500-3000 sq.ft" 
+    },
+    {
+        "imgsrc":"images/fromage.png",
+        "title":"FROMAGE",
+        "price":"10L - 20L",
+        "outlets":"Outlets: 5+",
+        "since":"Operating Since: 2017",
+        "items":"Cafe - Cafe, Italian, European, American",
+        "space":"Space Required: 2500-3000 sq.ft" 
+    }
+
+
+    ]
+
+}
+
+
+
