@@ -1,4 +1,34 @@
 {
+    "TopFranchiseData":[{
+        "imgsrc":"images/kfc.png",
+        "title":"KFC",
+        "price":"1.5Cr - 2Cr",
+        "outlets":"Outlets: 400+",
+        "since":"Operating Since: 1952",
+        "items":"Quick bites - Burger, Fast Food, Finger Food, Beverages",
+        "space":"Space Required: 600-1000 sq.ft" 
+    },{
+        "imgsrc":"images/mcd.png",
+        "title":"Mc Donald's",
+        "price":"Investment 6.6 Cr-14 Cr",
+        "outlets":"Outlets: 400+",
+        "since":"Operating Since: 1955",
+        "items":"Quick bites - Burger, Fast Food, Finger Food, Beverages",
+        "space":"Space Required: 400-1500 sq.ft" 
+
+    },{
+        
+        "imgsrc":"images/pizzahut.png",
+        "title":"Pizza Hut",
+        "price":"Investment 6.6 Cr-14 Cr",
+        "outlets":"Outlets: 350++",
+        "since":"Operating Since: 1958",
+        "items":"Quick bites - Pizza, Fast Food, Finger Food, Beverages",
+        "space":"Space Required: 300-1500 sq.ft" 
+
+    }],
+
+
     "HyderabadData" :  [{
        "imgsrc":"images/pistahouse.png",
         "title":"PISTA HOUSE",
@@ -163,9 +193,69 @@
         "items":"Cafe - Cafe, Italian, European, American",
         "space":"Space Required: 2500-3000 sq.ft" 
     }
+    ],
+    "ChennaiData" : [{
+        
+        "imgsrc":"images/duckdonuts.png",
+        "title":"DUCK DONUTS",
+        "price":"50L - 1Cr",
+        "outlets":"Outlets: 50+",
+        "since":"Operating Since: 2007",
+        "items":"Donuts - Donuts, Sandwich, Sundaes, Beverages",
+        "space":"Space Required: 500-600 sq.ft" 
 
+    },{
+        
+        "imgsrc":"images/zwarma.png",
+        "title":"ZWARMA",
+        "price":"10L - 20L",
+        "outlets":"Outlets: 75+",
+        "since":"Operating Since: 2010",
+        "items":"QUick Bites - Shawarma, Grill, BBQ, Kebab, Beverages",
+        "space":"Space Required: 400-600 sq.ft" 
 
-    ]
+    },{
+        
+        "imgsrc":"images/mrburger.png",
+        "title":"MR. BURGER",
+        "price":"5L - 15L",
+        "outlets":"Outlets: 5+",
+        "since":"Operating Since: 2019",
+        "items":"Quick Bites - Burger, Fast Food",
+        "space":"Space Required: 300-1500 sq.ft" 
+
+    },{
+        
+        "imgsrc":"images/go69.png",
+        "title":"GO 69 PIZZA",
+        "price":"10L - 20L",
+        "outlets":"Outlets: 65+",
+        "since":"Operating Since: 2015",
+        "items":"Quick Bites - Pizza, Burger, Pasta, Fastfood, Beverages",
+        "space":"Space Required: 600-1000 sq.ft" 
+
+    },{
+        
+        "imgsrc":"images/theredbox.png",
+        "title":"THE RED BOX",
+        "price":"10L - 20L",
+        "outlets":"utlets: 10+",
+        "since":"Operating Since: 2018",
+        "items":"Indochinese - Noodles, Momos, Fastfood",
+        "space":"Space Required: 200-300 sq.ft" 
+
+    },{
+        
+        "imgsrc":"images/beyondtemp.png",
+        "title":"BEYOND TEMPTATION",
+        "price":"10L - 20L",
+        "outlets":"Outlets: 150+",
+        "since":"Operating Since: 2016",
+        "items":"Cafe - Cafe, Fastfood, Beverages",
+        "space":"Space Required: 1500-2000 sq.ft" 
+
+    }
+]
 
 }
 

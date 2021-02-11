@@ -1,7 +1,9 @@
 import React from 'react'
 import HomeLayout from '../../HomeLayout'
 import TopFranchise from '../../TopFranchise'
+import { BrowserRouter as Route } from 'react-router-dom';
 import {homeObjOne, homeObjThree, homeObjTwo,} from './Data'
+import {TopFranchiseData} from "../../FranData.json"
  
 
 function Home() {
@@ -10,7 +12,9 @@ function Home() {
          <HomeLayout {...homeObjOne}  />
          <HomeLayout {...homeObjTwo}  />
          <HomeLayout {...homeObjThree}  />
-         <TopFranchise/>
+         <Route path='/topfranchise'  >
+              <TopFranchise data={TopFranchiseData}/>
+            </Route>
          
         </>
     )

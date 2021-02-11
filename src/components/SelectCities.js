@@ -3,7 +3,7 @@ import Bangalore from './Bangalore'
 import Chennai from './Chennai'
 import Hyderabad from './Hyderabad'
 import Mumbai from './Mumbai'
-import {HyderabadData,MumbaiData,BangaloreData} from "./FranData.json"
+import {HyderabadData,MumbaiData,BangaloreData,ChennaiData} from "./FranData.json"
  
 
 function SelectCities() {
@@ -12,7 +12,7 @@ function SelectCities() {
         <Hyderabad data={HyderabadData}/>
         <Bangalore data={BangaloreData}/>
         <Mumbai  data= {MumbaiData}/>
-        <Chennai />
+        <Chennai  data={ChennaiData}/>
         </>
     )
 }
