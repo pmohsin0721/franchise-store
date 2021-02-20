@@ -11,7 +11,7 @@ function Hyderabad(props) {
           <div className='Cities__container'>
 
             {props.data.map((data) => (
-              <a href='/enquiry-form'  className='Cities__container-card'>
+              <a href='/enquiry-form' target="_blank" className='Cities__container-card'>
               <div className='Cities__container-cardInfo'> 
                  <div className='icon'>
                     <img src={data.imgsrc} height="90px" alt="franchise"></img>
