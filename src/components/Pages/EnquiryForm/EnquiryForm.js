@@ -5,7 +5,7 @@ const EnquiryForm = () => {
     return(
         <>
        <div class="enquiry-form">
-    <form action="/examples/actions/confirmation.php" method="post">
+    <form >
 		<h2 class="text-center">Want an Enquiry ?</h2>
 		<p class="text-center">Please fill in this form to enquire about franchise.</p>
 		<hr />
